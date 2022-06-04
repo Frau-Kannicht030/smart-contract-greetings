@@ -5,3 +5,13 @@ const CONTRACT_ADDRESS = "0xac272645d1d6a6186570ddad788149b664672ba6";
 const contract = require("../artifacts/contracts/GreetingMessages.sol/GreetingMessages.json");
 
 console.log(JSON.stringify(contract.abi));
+
+const provider = new ethers.providers.AlchemyProvider(network = "goerli", API_KEY);
+const signer = new ethers.Wallet(PRIVATE_KEY, provider);
+const greetingMessagesContract = new ethers.Contract(CONTRACT_ADDRESS, contract.abi, signer);
+
+async function main() {
+  const message = await greetingMessagesContract.message();
+  console.log("The message is: " + message);
+}
+main();
