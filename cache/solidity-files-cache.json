@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/pi/hemant/git-codebase/smart-contract/contracts/GreetingMessages.sol": {
+      "lastModificationDate": 1654339670726,
+      "contentHash": "1912c77b8928e7683daa5f4a299d5a42",
+      "sourceName": "contracts/GreetingMessages.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.3"
+      ],
+      "artifacts": [
+        "GreetingMessages"
+      ]
+    }
+  }
+}
