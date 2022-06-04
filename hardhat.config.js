@@ -22,7 +22,7 @@ module.exports = {
   networks: {
     hardhat: {},
     goerli: {
-      url: API_URL + API_KEY,
+      url: API_URL,
       accounts: [`0x${PRIVATE_KEY}`]
     }
   },
