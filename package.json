@@ -1,0 +1,27 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "description": "smhardhat smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemantjuyal/smart-contract.git"
+  },
+  "keywords": [
+    "smart",
+    "contract",
+    "hardhat"
+  ],
+  "author": "Hemant Juyal",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hemantjuyal/smart-contract/issues"
+  },
+  "homepage": "https://github.com/hemantjuyal/smart-contract#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.7"
+  }
+}
