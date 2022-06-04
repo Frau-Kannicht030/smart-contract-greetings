@@ -20,7 +20,7 @@ async function main() {
   const tx = await greetingMessagesContract.update("Hola");
   await tx.wait();
 
-  const message = await greetingMessagesContract.message();
+  const newMessage = await greetingMessagesContract.message();
   console.log("The new message is: ", message);
 }
 main();
