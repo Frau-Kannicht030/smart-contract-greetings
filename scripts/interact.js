@@ -15,5 +15,12 @@ const greetingMessagesContract = new ethers.Contract(CONTRACT_ADDRESS, contract.
 async function main() {
   const message = await greetingMessagesContract.message();
   console.log("The message is: ", message);
+
+  console.log("Updating the message...");
+  const tx = await greetingMessagesContract.update("Hola");
+  await tx.wait();
+
+  const message = await greetingMessagesContract.message();
+  console.log("The new message is: ", message);
 }
 main();
