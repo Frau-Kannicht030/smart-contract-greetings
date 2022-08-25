@@ -24,9 +24,3 @@ Figure: A typical Smart Contract flow on Blockchain
 <br/>
 <br/>
 <br/>
-
-Refer to detailed post for each steps
-
-* [Creating and Deploying Smart Contract](https://medium.com/@hemantjuyal/creating-and-deploying-a-smart-contract-on-a-blockchain-c97e9edcc065)
-* [Interacting with deployed Smart Contract](https://medium.com/@hemantjuyal/interacting-with-your-deployed-smart-contract-on-blockchain-using-hardhat-bf14767bc0a5)
-* [Publish your Smart Contract on Etherscan](https://medium.com/@hemantjuyal/publish-and-verify-your-smart-contract-for-its-authenticity-on-etherscan-758cf8304793)
